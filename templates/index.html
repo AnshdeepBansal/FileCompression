@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Compression Tool</title>
+  <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+
+<header>
+  <h1>Compression Tool</h1>
+  <p>Compress Text, Image, and Video with ease</p>
+</header>
+
+<div class="container">
+  <section class="section">
+    <h2>Choose Compression Option</h2>
+    <div class="option-container">
+      <div>
+        <h3>Text Compression</h3>
+        <label for="text-file">Upload Text File</label>
+        <input type="file" id="text-file" accept=".txt" />
+        <label for="algorithm">Select Algorithm</label>
+        <select id="algorithm">
+          <option value="huffman">Huffman</option>
+          <option value="lzw">LZW</option>
+        </select>
+        <button id="compress-text">Compress Text</button>
+      </div>
+      <div>
+        <h3>Image Compression</h3>
+        <label for="image-file">Upload Image File</label>
+        <input type="file" id="image-file" accept="image/*" />
+        <button id="compress-image">Compress Image</button>
+      </div>
+      <div>
+        <h3>Video Compression</h3>
+        <label for="video-file">Upload Video File</label>
+        <input type="file" id="video-file" accept="video/*" />
+        <button id="compress-video">Compress Video</button>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script
+ src="../static/script.js">
+  
+</script>
+
+</body>
+</html>
