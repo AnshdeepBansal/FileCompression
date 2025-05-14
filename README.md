@@ -82,4 +82,4 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 **Anshdeep Bansal**  
 _3rd-year B.Tech CSE student, Graphic Era University_  
-💼 [LinkedIn](https://www.linkedin.com/in/anshdeep-bansal) 
+💼 [LinkedIn](https://www.linkedin.com/in/anshdeep-bansal-53327b24b) 
